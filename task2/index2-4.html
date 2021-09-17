@@ -38,27 +38,6 @@
     }
     let result_3 = divideTwoNumbers(9, 3);
     console.log(result_3);
-
-    //Функция с тремя параметрами и конструкцией switch
-    function mathOperation(arg1, arg2, operation) {
-      switch (operation) {
-        case "add":
-          return addTwoNumbers(arg1, arg2);
-        case "sub":
-          return subtractTwoNumbers(arg1, arg2);
-        case "multi":
-          return multiplyTwoNumbers(arg1, arg2);
-        case "div":
-          return divideTwoNumbers(arg1, arg2);
-        default:
-          throw new Error("Операция " + operation + " не предусмотрена");
-      }
-    }
-    console.log(mathOperation(3, 5, "add"));
-    console.log(mathOperation(3, 5, "sub"));
-    console.log(mathOperation(3, 5, "multi"));
-    console.log(mathOperation(3, 5, "div"));
-    console.log(mathOperation(3, 5, "lorem"));
   </script>
 </body>
 
