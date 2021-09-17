@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+
+<body>
+  <script>
+    "use strict"
+    // Сложение 
+    function addTwoNumbers(a, b) {
+      return a + b;
+    }
+    let result = addTwoNumbers(5, 2);
+    console.log(result);
+
+    // Вычитание
+    function subtractTwoNumbers(a, b) {
+      return a - b;
+    }
+    let result_1 = subtractTwoNumbers(6, 1);
+    console.log(result_1);
+
+    // Умножение
+    function multiplyTwoNumbers(a, b) {
+      return a * b;
+    }
+    let result_2 = multiplyTwoNumbers(3, 7);
+    console.log(result_2);
+
+    // Деление
+    function divideTwoNumbers(a, b) {
+      return a / b;
+    }
+    let result_3 = divideTwoNumbers(9, 3);
+    console.log(result_3);
+
+    //Функция с тремя параметрами и конструкцией switch
+    function mathOperation(arg1, arg2, operation) {
+      switch (operation) {
+        case "add":
+          return addTwoNumbers(arg1, arg2);
+        case "sub":
+          return subtractTwoNumbers(arg1, arg2);
+        case "multi":
+          return multiplyTwoNumbers(arg1, arg2);
+        case "div":
+          return divideTwoNumbers(arg1, arg2);
+        default:
+          throw new Error("Операция " + operation + " не предусмотрена");
+      }
+    }
+    console.log(mathOperation(3, 5, "add"));
+    console.log(mathOperation(3, 5, "sub"));
+    console.log(mathOperation(3, 5, "multi"));
+    console.log(mathOperation(3, 5, "div"));
+    console.log(mathOperation(3, 5, "lorem"));
+  </script>
+</body>
+
+</html>
