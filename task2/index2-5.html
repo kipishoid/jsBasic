@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+
+<body>
+  <script>
+    "use strict"
+    // Сложение
+    function addTwoNumbers(a, b) {
+      return a + b;
+    }
+
+    // Вычитание
+    function subtractTwoNumbers(a, b) {
+      return a - b;
+    }
+
+    // Умножение
+    function multiplyTwoNumbers(a, b) {
+      return a * b;
+    }
+
+    // Деление
+    function divideTwoNumbers(a, b) {
+      return a / b;
+    }
+
+    //Функция с тремя параметрами и конструкцией switch
+    function mathOperation(arg1, arg2, operation) {
+      switch (operation) {
+        case "add":
+          return addTwoNumbers(arg1, arg2);
+        case "sub":
+          return subtractTwoNumbers(arg1, arg2);
+        case "multi":
+          return multiplyTwoNumbers(arg1, arg2);
+        case "div":
+          return divideTwoNumbers(arg1, arg2);
+        default:
+          console.log("Error");
+      }
+    }
+    console.log(mathOperation(5, 2, "add"));
+    console.log(mathOperation(6, 1, "sub"));
+    console.log(mathOperation(3, 7, "multi"));
+    console.log(mathOperation(9, 3, "div"));
+    console.log(mathOperation(8, 10, "error"));
+  </script>
+</body>
+
+</html>
