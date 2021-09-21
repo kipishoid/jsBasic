@@ -22,6 +22,3 @@ console.log(products);
 //   discount.price = discount.price - discount.price * 0.15;
 // });
 // console.log(products);
-
-
-//Остальные задания сдам сегодня после урока, физически не успел сделать(
