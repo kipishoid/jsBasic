@@ -1,5 +1,5 @@
 "use strict";
 
-for (let x = 0; x < 10; console.log(x++)) {
-
+for (let x = 'x'; x.length <= 20; x += 'x') {
+  console.log(x);
 }
