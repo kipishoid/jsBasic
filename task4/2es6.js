@@ -1,6 +1,6 @@
 "use strict";
 
-class Post {
+class Post1 {
   constructor(author, text, date) {
     this.author = author;
     this.text = text;
@@ -13,7 +13,7 @@ class Post {
   }
 }
 
-class AttachedPost extends Post {
+class AttachedPost1 extends Post1 {
   constructor(author, text, date) {
     super(author, text, date);
     this.highlighted = false;
@@ -23,7 +23,7 @@ class AttachedPost extends Post {
   }
 }
 
-const newText = new AttachedPost('Виталий', 'Отмечает день рождения', '24.11.2021');
-newText.edit("new text");
-newText.makeTextHighlighted();
-console.log(newText);
+const newText1 = new AttachedPost1('Семен', 'Не отмечает день рождения', '01.10.2022');
+newText1.edit("new text");
+newText1.makeTextHighlighted();
+console.log(newText1);
