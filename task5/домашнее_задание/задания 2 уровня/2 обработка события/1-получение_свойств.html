@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+
 <body>
     <button id="one" class="btn">Кнопка 1</button>
 
@@ -16,5 +18,13 @@
     4. При клике из event.target выведите в консоль: id, имя класса (используйте
     свойство className), текст на кнопке.
     -->
+    <script>
+        'use strict';
+        const buttonEl = document.querySelector('button');
+        buttonEl.addEventListener('click', (event) => {
+            console.log(event.target.id, event.target.className, event.target.innerText);
+        });
+    </script>
 </body>
+
 </html>
