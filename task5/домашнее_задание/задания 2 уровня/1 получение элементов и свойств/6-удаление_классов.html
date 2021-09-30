@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+
 <body>
     <div class="card hidden">
         Lorem ipsum dolor sit.
@@ -23,5 +25,15 @@
     1. Найдите все "карточки" с классом .card.
     2. Проверьте есть ли у карточки класс hidden с помощью метода contains(),
     и если есть, то удалите с помощью метода remove(). -->
+    <script>
+        'use strict';
+        const searchEl = document.querySelectorAll('.card');
+        searchEl.forEach((searchEl) => {
+            if (searchEl.classList.contains('hidden')) {
+                searchEl.classList.remove('hidden');
+            }
+        });
+    </script>
 </body>
+
 </html>

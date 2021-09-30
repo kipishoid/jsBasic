@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+
 <body>
     <h2 class="one lorem">Заголовок 1</h2>
     <h2 class="two ipsum">Заголовок 2</h2>
@@ -18,7 +20,12 @@
     -->
 
     <script>
-        
+        'use strict';
+        const searchEl = document.getElementsByTagName('h2');
+        for (let a of searchEl) {
+            console.log(a.className);
+        };
     </script>
 </body>
+
 </html>
