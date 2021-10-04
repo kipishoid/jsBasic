@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <div class="product">
         <div>Товар 1</div>
@@ -41,11 +43,18 @@
     -->
 
     <script>
-        
-		
-		function buttonClickHandler(event) {
-		
-		}
+        'use strict';
+
+        const btn = document.querySelectorAll('button');
+        btn.forEach((button) => {
+            button.addEventListener('click', buttonClickHandler);
+        });
+
+        function buttonClickHandler(event) {
+            event.target.parentNode.style.background = 'lightgreen';
+            event.target.innerText = 'Добавлено';
+        }
     </script>
 </body>
+
 </html>
