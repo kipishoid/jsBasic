@@ -11,8 +11,7 @@
 */
 
 const products = {
-    phones: [
-        {
+    phones: [{
             id: 1,
             name: "Смартфон 1",
             price: "23,99 р.",
@@ -32,8 +31,7 @@ const products = {
         },
     ],
 
-    tablets: [
-        {
+    tablets: [{
             id: 4,
             name: "Планшет 4",
             price: "99,99 р.",
@@ -47,8 +45,7 @@ const products = {
         },
     ],
 
-    tv: [
-        {
+    tv: [{
             id: 6,
             name: "Телевизор 6",
             price: "199,99 р.",
@@ -75,6 +72,11 @@ const products = {
     ],
 };
 
+const productsEl = document.querySelector('.products');
+const btn = document.querySelectorAll('button');
+btn.forEach((search) => {
+    search.addEventListener('click', clickHandler);
+});
 
 /**
  * Эта функция должна вызываться при клике по кнопкам.
@@ -82,10 +84,11 @@ const products = {
  */
 function clickHandler(event) {
     //вам нужно очищать содержимое .products
-    
+
     //в showCategory надо передать строку с типом категории, тип берите
     //из атрибута data-type у кнопки, по которой кликнули.
-    
+    productsEl.innerContent = '';
+    showCategory(event.target.dataset.type);
 }
 
 /**
@@ -96,7 +99,12 @@ function clickHandler(event) {
  * по которой кликнули.
  */
 function showCategory(category) {
-    
+    let categoryEl = products[category];
+    let productsDiv = '';
+    categoryEl.forEach((product) => {
+        productsDiv += getProductMarkup(product);
+    });
+    productsEl.insertAdjacentHTML('afterbegin', productsDiv);
 }
 
 /**
@@ -109,5 +117,12 @@ function showCategory(category) {
  * в верху этого файла.
  */
 function getProductMarkup(product) {
-
+    return `
+            <div class="product">
+                <div>${product.name}</div>
+                <img src="${product.imageUrl}" alt="">
+                <div>${product.price}</div>
+                <a href="https://example.com/producs/${product.id}">Подробнее</a>
+            </div>
+        `;
 }
