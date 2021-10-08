@@ -1,0 +1,35 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+.menu {
+  display: grid;
+  height: 50px;
+  justify-content: end;
+}
+
+.btn-cart {
+  width: 100px;
+}
+
+.products {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-items: center;
+  margin-top: 96px;
+}
+
+.product-item {
+  display: grid;
+  border: 1px solid gray;
+  justify-items: center;
+}
