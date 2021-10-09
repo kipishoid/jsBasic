@@ -16,21 +16,22 @@ const products = [{
     {
         id: 4,
         title: 'Gamepad',
+        dsfs: 'dsfs',
         price: 50
     },
 ];
 //Функция для формирования верстки каждого товара
 //Добавить в выводе изображение
-const renderProduct = (title, ...price) => {
+const renderProduct = (product) => {
     return `<div class="product-item">
-                <h3>${title}</h3>
-                <p>${price}</p>
+                <h3>${product.title}</h3>
+                <p>${product.price}</p>
                 <img src = "images/1.jpg" alt = "img">
                 <button class="buy-btn">Купить</button>
             </div>`
 };
 const renderPage = list => {
-    const productsList = list.map(item => renderProduct(item.title, item.price));
+    const productsList = list.map(item => renderProduct(item));
     document.querySelector('.products').innerHTML = productsList.join(' ');
 };
 
