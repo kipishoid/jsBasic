@@ -17,6 +17,7 @@
   justify-content: end;
   background-color: #f0f0f0;
   align-items: center;
+  position: relative;
 }
 
 .basket_modal {
