@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Shop</title>
+  <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+  <div id="app">
+    <header class="container">
+      <div class="cart">
+        <div class="logo">Shop</div>
+        <form action="#" class="cart__form_search" @submit.prevent="filter">
+          <input type="text" class="cart__form_search_input" v-model="userSearch">
+          <button class="cart__btn-searth" type="button">Поиск</button>
+        </form>
+        <button class="cart__btn-cart" type="button" @click="showCart = !showCart">Корзина</button>
+        <div class="cart__block" v-show="showCart">
+          <div class="basket_cart" v-for="item of cartItems">
+            <img class="basket_img" :src="imgCart" alt="basket image">
+            <p class="product_title">{{ item.product_name }}</p>
+            <p class="product_quantity">Кол-во: {{ item.quantity }}</p>
+            <p class="product_price">${{ item.price }}</p>
+            <p class="product__sum_price">${{item.quantity*item.price}}</p>
+            <button class="btn_delete" @click="remove(item)">&times;</button>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main class="container">
+      <div class="products">
+        <div class="product-item" v-for="product of filtered">
+          <img :src="imgProduct" alt="Some img">
+          <div class="desc">
+            <h3>{{product.product_name}}</h3>
+            <p>{{product.price}}</p>
+            <button class="buy-btn" @click="addProduct(product)">Купить</button>
+          </div>
+        </div>
+      </div>
+    </main>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>
