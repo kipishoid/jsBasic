@@ -1,0 +1,286 @@
+{
+    "amount": 46600,
+    "countGoods": 2,
+    "contents": [
+        {
+            "quantity": 1,
+            "id_product": 103,
+            "product_name": "Куртка",
+            "price": 500,
+            "imgProduct": "img/103.png",
+            "imgCart": "./img/103.png"
+        },
+        {
+            "quantity": 1,
+            "id_product": 103,
+            "product_name": "Куртка",
+            "price": 500,
+            "imgProduct": "img/103.png",
+            "imgCart": "./img/103.png"
+        },
+        {
+            "quantity": 1,
+            "id_product": 108,
+            "product_name": "Куртка",
+            "price": 500,
+            "imgProduct": "img/108.png",
+            "imgCart": "./img/103.png"
+        },
+        {
+            "quantity": 1,
+            "id_product": 108,
+            "product_name": "Куртка",
+            "price": 500,
+            "imgProduct": "img/108.png",
+            "imgCart": "./img/103.png"
+        },
+        {
+            "quantity": 1,
+            "id_product": 102,
+            "product_name": "Блузка",
+            "price": 60,
+            "imgProduct": "img/102.png",
+            "imgCart": "./img/102.png"
+        },
+        {
+            "quantity": 1,
+            "id_product": 103,
+            "product_name": "Куртка",
+            "price": 500,
+            "imgProduct": "img/103.png",
+            "imgCart": "./img/103.png"
+        },
+        {
+            "quantity": 1,
+            "id_product": 102,
+            "product_name": "Блузка",
+            "price": 60,
+            "imgProduct": "img/102.png",
+            "imgCart": "./img/102.png"
+        },
+        {
+            "quantity": 1,
+            "id_product": 108,
+            "product_name": "Куртка",
+            "price": 500,
+            "imgProduct": "img/108.png",
+            "imgCart": "./img/103.png"
+        },
+        {
+            "quantity": 1,
+            "id_product": 102,
+            "product_name": "Блузка",
+            "price": 60,
+            "imgProduct": "img/102.png",
+            "imgCart": "./img/102.png"
+        },
+        {
+            "quantity": 1,
+            "id_product": 103,
+            "product_name": "Куртка",
+            "price": 500,
+            "imgProduct": "img/103.png",
+            "imgCart": "./img/103.png"
+        },
+        {
+            "quantity": 1,
+            "id_product": 102,
+            "product_name": "Блузка",
+            "price": 60,
+            "imgProduct": "img/102.png",
+            "imgCart": "./img/102.png"
+        },
+        {
+            "quantity": 1,
+            "id_product": 104,
+            "product_name": "Платье",
+            "price": 450,
+            "imgProduct": "img/104.png",
+            "imgCart": "./img/104.png"
+        },
+        {
+            "quantity": 1,
+            "id_product": 103,
+            "product_name": "Куртка",
+            "price": 500,
+            "imgProduct": "img/103.png",
+            "imgCart": "./img/103.png"
+        },
+        {
+            "quantity": 1,
+            "id_product": 104,
+            "product_name": "Платье",
+            "price": 450,
+            "imgProduct": "img/104.png",
+            "imgCart": "./img/104.png"
+        },
+        {
+            "quantity": 1,
+            "id_product": 102,
+            "product_name": "Блузка",
+            "price": 60,
+            "imgProduct": "img/102.png",
+            "imgCart": "./img/102.png"
+        },
+        {
+            "quantity": 1,
+            "id_product": 107,
+            "product_name": "Куртка",
+            "price": 50,
+            "imgProduct": "img/107.png",
+            "imgCart": "./img/103.png"
+        },
+        {
+            "quantity": 1,
+            "id_product": 104,
+            "product_name": "Платье",
+            "price": 450,
+            "imgProduct": "img/104.png",
+            "imgCart": "./img/104.png"
+        },
+        {
+            "quantity": 1,
+            "id_product": 107,
+            "product_name": "Футболка",
+            "price": 50,
+            "imgProduct": "img/107.png",
+            "imgCart": "./img/103.png"
+        },
+        {
+            "quantity": 1,
+            "id_product": 103,
+            "product_name": "Куртка",
+            "price": 500,
+            "imgProduct": "img/103.png",
+            "imgCart": "./img/103.png"
+        },
+        {
+            "quantity": 1,
+            "id_product": 104,
+            "product_name": "Платье",
+            "price": 450,
+            "imgProduct": "img/104.png",
+            "imgCart": "./img/104.png"
+        },
+        {
+            "quantity": 1,
+            "id_product": 104,
+            "product_name": "Платье",
+            "price": 450,
+            "imgProduct": "img/104.png",
+            "imgCart": "./img/104.png"
+        },
+        {
+            "quantity": 1,
+            "id_product": 106,
+            "product_name": "Костюм с отливом",
+            "price": 65,
+            "imgProduct": "img/106.png",
+            "imgCart": "./img/103.png"
+        },
+        {
+            "quantity": 1,
+            "id_product": 103,
+            "product_name": "Куртка",
+            "price": 500,
+            "imgProduct": "img/103.png",
+            "imgCart": "./img/103.png"
+        },
+        {
+            "quantity": 1,
+            "id_product": 103,
+            "product_name": "Куртка",
+            "price": 500,
+            "imgProduct": "img/103.png",
+            "imgCart": "./img/103.png"
+        },
+        {
+            "quantity": 1,
+            "id_product": 106,
+            "product_name": "Костюм с отливом",
+            "price": 65,
+            "imgProduct": "img/106.png",
+            "imgCart": "./img/103.png"
+        },
+        {
+            "quantity": 1,
+            "id_product": 107,
+            "product_name": "Футболка",
+            "price": 50,
+            "imgProduct": "img/107.png",
+            "imgCart": "./img/103.png"
+        },
+        {
+            "quantity": 1,
+            "id_product": 107,
+            "product_name": "Футболка",
+            "price": 50,
+            "imgProduct": "img/107.png",
+            "imgCart": "./img/103.png"
+        },
+        {
+            "quantity": 1,
+            "id_product": 106,
+            "product_name": "Костюм с отливом",
+            "price": 65,
+            "imgProduct": "img/106.png",
+            "imgCart": "./img/103.png"
+        },
+        {
+            "quantity": 1,
+            "id_product": 103,
+            "product_name": "Куртка",
+            "price": 500,
+            "imgProduct": "img/103.png",
+            "imgCart": "./img/103.png"
+        },
+        {
+            "quantity": 1,
+            "id_product": 108,
+            "product_name": "Свитер",
+            "price": 80,
+            "imgProduct": "img/108.png",
+            "imgCart": "./img/103.png"
+        },
+        {
+            "quantity": 1,
+            "id_product": 103,
+            "product_name": "Куртка",
+            "price": 500,
+            "imgProduct": "img/103.png",
+            "imgCart": "./img/103.png"
+        },
+        {
+            "quantity": 1,
+            "id_product": 107,
+            "product_name": "Футболка",
+            "price": 50,
+            "imgProduct": "img/107.png",
+            "imgCart": "./img/103.png"
+        },
+        {
+            "quantity": 1,
+            "id_product": 104,
+            "product_name": "Платье",
+            "price": 450,
+            "imgProduct": "img/104.png",
+            "imgCart": "./img/104.png"
+        },
+        {
+            "quantity": 1,
+            "id_product": 103,
+            "product_name": "Куртка",
+            "price": 500,
+            "imgProduct": "img/103.png",
+            "imgCart": "./img/103.png"
+        },
+        {
+            "quantity": 1,
+            "id_product": 104,
+            "product_name": "Платье",
+            "price": 450,
+            "imgProduct": "img/104.png",
+            "imgCart": "./img/104.png"
+        }
+    ]
+}

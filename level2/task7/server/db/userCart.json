@@ -1,0 +1,30 @@
+{
+    "amount": 46600,
+    "countGoods": 2,
+    "contents": [
+        {
+            "quantity": 1,
+            "id_product": 104,
+            "product_name": "Наушники",
+            "price": 3700,
+            "imgProduct": "images/104.jpeg",
+            "imgCart": "./img/cart/792.png"
+        },
+        {
+            "quantity": 1,
+            "id_product": 103,
+            "product_name": "Клавиатура",
+            "price": 1600,
+            "imgProduct": "images/103.jpeg",
+            "imgCart": "./img/cart/278.png"
+        },
+        {
+            "quantity": 1,
+            "id_product": 102,
+            "product_name": "Ноутбук",
+            "price": 1000,
+            "imgProduct": "images/102.jpeg",
+            "imgCart": "./img/cart/200.png"
+        }
+    ]
+}
